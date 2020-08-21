@@ -8,6 +8,9 @@
   --font-size: 14px;
   --line-height: 1.5;
 }
+body{
+  margin: 0;
+}
 
 *,
 *::before,
@@ -26,6 +29,7 @@ body{
   background: var(--color-background);
   color: var(--color-text);
   width: 100vw;
+
 }
 
 a {
